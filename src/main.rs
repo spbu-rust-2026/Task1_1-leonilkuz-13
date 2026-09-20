@@ -1,10 +1,10 @@
-use std::io::stdin;
+use std::io::{Read, stdin};
 
 fn main() {
     let mut input = String::new();
 
     stdin()
-        .read_line(&mut input)
+        .read_to_string(&mut input)
         .expect("> Failed to read the line");
 
     let mut iter = input
