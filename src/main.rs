@@ -16,7 +16,7 @@ fn main() {
         iter.next().expect("Second number not found"),
     ];
 
-    let total: i32 = numbers.iter().sum();
+    let total: i64 = numbers.iter().sum();
 
     println!("{}", total);
 }
