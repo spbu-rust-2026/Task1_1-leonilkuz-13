@@ -11,7 +11,7 @@ fn main() {
         .split_whitespace()
         .map(|x| x.parse().expect("This is not a number"));
 
-    let numbers: [i32; 2] = [
+    let numbers: [i64; 2] = [
         iter.next().expect("First number not found"),
         iter.next().expect("Second number not found"),
     ];
