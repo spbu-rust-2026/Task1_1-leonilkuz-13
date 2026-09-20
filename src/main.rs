@@ -2,7 +2,6 @@ use std::io::stdin;
 
 fn main() {
     let mut input = String::new();
-    println!("> Enter two numbers:");
 
     stdin()
         .read_line(&mut input)
@@ -19,5 +18,5 @@ fn main() {
 
     let total: i32 = numbers.iter().sum();
 
-    println!("total: {}", total);
+    println!("{}", total);
 }
